@@ -11,6 +11,9 @@ CREATE TABLE `departamentos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `departamentos` VALUES (14,'IT',65000),(37,'Accounting',15000),(59,'Human Resources',240000),(77,'Research',55000);
+INSERT INTO 'departamentos' VALUES (23,'Sales',120000),(42,'Marketing',95000),(88,'Customer Service',180000),(99,'Legal',35000),
+(104,'Production',280000),(137,'Quality Control',90000),(156,'Research and Development',75000),(170,'Public Relations',120000),
+(187,'Purchasing',125000),(199,'Finance',210000);
 
 
 DROP TABLE IF EXISTS `empleados`;
