@@ -11,6 +11,17 @@ CREATE TABLE `fabricantes` (
 
 INSERT INTO `fabricantes` VALUES (1,'Sony'),(2,'Creative Labs'),(3,'Hewlett-Packard'),(4,'Iomega'),(5,'Fujitsu'),(6,'Winchester');
 
+INSERT INTO 'fabricantes' VALUES (7, 'Microsoft');
+INSERT INTO 'fabricantes' VALUES (8, 'Apple');
+INSERT INTO 'fabricantes' VALUES (9, 'Samsung');
+INSERT INTO 'fabricantes' VALUES (10, 'LG');
+INSERT INTO 'fabricantes' VALUES (11, 'Lenovo');
+INSERT INTO 'fabricantes' VALUES (12, 'ASUS');
+INSERT INTO 'fabricantes' VALUES (13, 'Acer');
+INSERT INTO 'fabricantes' VALUES (14, 'Dell');
+INSERT INTO 'fabricantes' VALUES (15, 'Toshiba');
+INSERT INTO 'fabricantes' VALUES (16, 'Canon');
+
 DROP TABLE IF EXISTS `articulos`;
 CREATE TABLE `articulos` (
   `CODIGO` int NOT NULL,
@@ -23,6 +34,16 @@ CREATE TABLE `articulos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `articulos` VALUES (1,'Hard drive',240,5),(2,'Memory',120,6),(3,'ZIP drive',150,4),(4,'Floppy disk',5,6),(5,'Monitor',240,1),(6,'DVD drive',180,2),(7,'CD drive',90,2),(8,'Printer',270,3),(9,'Toner cartridge',66,3),(10,'DVD burner',180,2);
+INSERT INTO 'articulos' VALUES (1, 'TV 4K', 599, 1);
+INSERT INTO 'articulos' VALUES (2, 'Xbox Series X', 499, 7);
+INSERT INTO 'articulos' VALUES (3, 'MacBook Pro', 1299, 8);
+INSERT INTO 'articulos' VALUES (4, 'Galaxy S21', 899, 9);
+INSERT INTO 'articulos' VALUES (5, 'UltraSharp U2419HC', 349, 14);
+INSERT INTO 'articulos' VALUES (6, 'Smartwatch Galaxy Watch4 Classic', 399, 9);
+INSERT INTO 'articulos' VALUES (7, 'iPad Air', 599, 8);
+INSERT INTO 'articulos' VALUES (8, 'Laptop IdeaPad Flex 5', 699, 11);
+INSERT INTO 'articulos' VALUES (9, 'Camera EOS 80D', 1099, 16);
+INSERT INTO 'articulos' VALUES (10, 'Monitor UltraSharp UP3216Q', 1499, 14);
 
 
 /*1.1 */
