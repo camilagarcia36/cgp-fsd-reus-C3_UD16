@@ -10,9 +10,8 @@ CREATE TABLE `almacenes` (
   PRIMARY KEY (`CODIGO`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `almacenes` VALUES ('Valencia',3),('Barcelona',4),('Bilbao',7),('Los Angeles',2),('San Francisco',8);
-INSERT INTO 'almacenes' VALUES ('Madrid', 500),('Barcelona', 400),('Valencia', 300),('Sevilla', 200),('Bilbao', 100);
-
+INSERT INTO `almacenes` VALUES (NULL,'Valencia',3),(NULL,'Barcelona',4),(NULL,'Bilbao',7),(NULL,'Los Angeles',2),(NULL,'San Francisco',8);
+INSERT INTO `almacenes` VALUES (NULL,'Madrid', 500),(NULL,'Barcelona', 400),(NULL,'Valencia', 300),(NULL,'Sevilla', 200),(NULL,'Bilbao', 100
 
 
 DROP TABLE IF EXISTS `cajas`;
